@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.wrapper {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.box {
+  margin-top: 25%;
+  margin-left: 35%;
+  margin-right: 35%;
+  width: 336px;
+  height: 236px;
+  border-radius: 10px;
+  border: 1px solid #c4c4c4;
+  background: rgba(196, 196, 196, 0);
+}
+.yellow {
+  width: 336px;
+  height: 28px;
+  background-color: rgb(255, 220, 64, 1);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.head {
+  width: 198px;
+  height: 34px;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 13px;
+  margin-left: 69px;
+  margin-right: 69px;
+}
+.sort {
+  width: 25px;
+  height: 15px;
+  margin-left: 281px;
+  margin-top: 14px;
+}
+input {
+  width: 286px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #c4c4c4;
+  background: rgba(196, 196, 196, 0);
+  text-align: center;
+  padding-left: 12px;
+}
+.btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 34px;
+  /* padding: 8px; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.AddBtn {
+  display: flex;
+}
+.AddBt {
+  width: 129px;
+  height: 42px;
+  display: flex;
+  /* flex-direction: column;
+justify-content: center; */
+  color: #fff;
+  /* text-align: center; */
+  font-size: 14px;
+  font-family: Roboto;
+  background-color: rgba(153, 83, 241, 1);
+  border-radius: 34px;
+  margin-top: 18px;
+  margin-right: 94px;
+  margin-left: 94px;
+  margin-bottom: 19px;
+  color: #000;
+  text-align: center;
+  /* justify-content: center; */
+  align-items: center;
+  border-radius: none;
+}
+.circle {
+  display: flex;
+  width: 42px;
+  height: 42px;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-family: Roboto;
+  border-radius: 34px;
+  border-radius: none;
+  background-color: rgba(170, 104, 254, 1);
+  background-position: left;
+}
