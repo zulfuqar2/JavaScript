@@ -19,4 +19,30 @@
 //     const name = prompt("Enter your name");
 //     console.log(`${name} is active now`);
 // }
+//Parametr olaraq üç ədəd qəbul edən və konsolda ən böyüyünü göstərən bir funksiya tərtib edin.
 
+
+// let threeNum = []; // Initialize an array to store the three numbers
+
+// for (let i = 0; i < 3; i++) {
+//     const num = parseFloat(prompt('Enter number')); // Convert input to a number
+//     threeNum.push(num); // Add the number to the array
+// }
+
+// function maxNum(numbers) {
+//     const max = Math.max(...numbers);
+//     console.log(max);
+// }
+
+// maxNum(threeNum); // Call the function with the array of numbers
+
+// let threeNum =[];
+// for(let i =0;i<3;i++){
+//     threeNum=prompt('enter number');// for just 0-9 
+// }
+// function maxNum(threeNum){
+//   const max =Math.max(...threeNum);
+//   console.log(max)
+// }
+
+// maxNum(threeNum);
