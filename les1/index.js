@@ -112,23 +112,62 @@
 // }
 // findNum();
 
-
-//İstifadəçidən ikirəqəmli ədəd daxil etməsini xahiş edin. 
+//İstifadəçidən ikirəqəmli ədəd daxil etməsini xahiş edin.
 // Bu rəqəmi üçrəqəmli olana qədər 7 - ədədə qədər artırın.
 // Son dəyəri konsola çıxarın.
 
+// function add (){
+
+// const numb = +prompt("Enter any number")
+
+// while(isNaN(numb) || numb>101 ){
+//     alert("Please enter just from 1 to 99 ")
+// } do(numb){
+//     let sum
+// }
+// }
+// add()
+
+//setTimeOut
+// const paragraphs = document.querySelectorAll("#sa"); // veya uygun bir CSS sınıfı veya ID'si
+// const names = ["Metin", "Abbas", "Elyas", "Umut"];
+// let i = 0;
+
+// function changeName() {
+//   setInterval(() => {
+//     paragraphs.forEach((p) => {
+//       p.innerText = names[i];
+//     });
+//     i = (i + 1) % names.length;
+//   }, 2000);
+// }
+
+// changeName();
+
+//setInterval 
+
+//Use dom for catching p elemtn in html 
+// const pharagraph=document.querySelector("#sa")
+
+// pharagraph.addEventListener(function salam(){
+//     setInterval(() => {
+//         pharagraph.array.forEach(element => {
+            
+//         });
 
 
+//     }, interval);
+// })
 
-function add (){
+// salam()
+// const paragraph = document.querySelector("#sa");
 
-const numb = +prompt("Enter any number")
+// function getRandomNumber() {
+//     return Math.floor(Math.random() * 100); // 0 ile 99 arasında rastgele bir sayı üretir
+// }
 
-while(isNaN(numb) || numb>101 ){
-    alert("Please enter just from 1 to 99 ")
-} do(){
-    let sum 
-}
+// function updateParagraph() {
+//     paragraph.textContent = getRandomNumber(); // Rastgele sayıyı paragrafa yazdırır
+// }
 
-
-}
+// setInterval(updateParagraph, 1000); // 10 saniyede bir rastgele sayıyı günceller
